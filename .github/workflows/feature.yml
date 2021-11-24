@@ -26,6 +26,6 @@ jobs:
       run: ./build.sh
 
     - name: Slack Msg
-        env:
-            SLACK_SECRET: ${{ secrets.SLACK_SECRET }}
+      env:
+          SLACK_SECRET: ${{ secrets.SLACK_SECRET }}
       run: ./notify.sh
