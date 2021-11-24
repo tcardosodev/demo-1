@@ -11,8 +11,8 @@ plugins {
 // Sonarcloud service attributes.
 sonarqube {
 	properties {
-		property "sonar.projectKey", "fvilarinho_demo_backend"
-		property "sonar.organization", "fvilarinho"
+		property "sonar.projectKey", "tcardosodev_demo"
+		property "sonar.organization", "tcardosodev"
 		property "sonar.host.url", "https://sonarcloud.io"
 		property "sonar.sources", "src/main/java,src/main/webapp,src/main/resources/static"
 		property 'sonar.exclusions', "**/ServletInitializer*"
