@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author fvilarinho
  * @version 1.0.0
+ * test
  */
 @SpringBootApplication
 public class DemoApplication {
